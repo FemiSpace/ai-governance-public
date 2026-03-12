@@ -1,6 +1,6 @@
 export type RiskLevel = 'low' | 'medium' | 'high' | 'critical';
 export type PolicyStatus = 'draft' | 'active' | 'archived';
-export type ComplianceStatus = 'compliant' | 'at-risk' | 'non-compliant' | 'pending';
+export type ComplianceStatus = 'compliant' | 'at-risk' | 'non-compliant' | 'pending' | 'in-progress';
 export type ModelStatus = 'development' | 'staging' | 'production' | 'retired';
 export type FDAClass = 'SaMD' | 'CDS-device' | 'CDS-non-device' | 'General Wellness' | 'Non-device Software';
 export type EURiskTier = 'High-Risk' | 'Limited Risk' | 'Minimal Risk' | 'Prohibited';
